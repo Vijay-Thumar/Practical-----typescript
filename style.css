@@ -1,0 +1,79 @@
+.display {
+    width: 425px;
+    height: 620px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.textField {
+    display: grid;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    font-size: x-large;
+    font-style: normal;
+}
+
+
+.funcTable {
+    padding: 10px 0px 0px 4px;
+    width: 380;
+    height: 357px;
+    color: black;
+    position: relative;
+
+}
+.funcTable td {
+    padding: 12px 22px 12px 22px;
+    background-color: rgba(136, 127, 127, 0);
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid rgba(202, 202, 202, 0.158);
+}
+.funcTable td:hover {
+    background-color: #67bbeca1 !important;
+}
+.funcTable button {
+    cursor: pointer;
+    background-color: rgba(136, 127, 127, 0);
+    border: hidden;
+    min-width: 100%;
+}
+.funcTable table {
+    background-color: rgba(255, 255, 255, 0.397);
+}
+
+
+.mrow td {
+    background-color: rgb(245, 245, 245);
+    border: hidden;
+    outline: transparent;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 31px 0px 31px;
+    cursor: pointer;
+
+}
+
+.mrow td:hover {
+    background-color: #67bbeca1;
+}
+
+.drow td {
+    background-color: rgb(245, 245, 245);
+    border: hidden;
+    outline: transparent;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 56px 5px 5px 20px;
+    cursor: pointer;
+
+}
+
+.drow td:hover {
+    background-color: #67bbeca1;
+}
+
+.inputtex{
+    float: right;
+    text-align: right;
+}
